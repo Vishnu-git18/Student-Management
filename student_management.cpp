@@ -41,6 +41,7 @@ void addStudent()
     cout << "Student record added successfully.\n";
 }
 
+// Displays all students
 void displayAll()
 {
     ifstream inFile("students.dat", ios::binary);
@@ -59,6 +60,7 @@ void displayAll()
         cout << "No records found.\n";
 }
 
+// To search a student record
 void searchStudent()
 {
     int roll;
@@ -83,6 +85,7 @@ void searchStudent()
         cout << "Record not found.\n";
 }
 
+// To delete a student record
 void deleteStudent()
 {
     int roll;
@@ -114,6 +117,7 @@ void deleteStudent()
         cout << "Record not found.\n";
 }
 
+// To update a student record
 void updateStudent()
 {
     int roll;
